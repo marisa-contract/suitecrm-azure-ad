@@ -6,7 +6,9 @@ A SuiteCRM plugin to allow single signon using Azure Active Directory / Office 3
 
 ### Prerequisite
 Create an app in Azure AD to get client_id. As part of the registration, you will also need to add the Web platform, enable the Implicit flow, and add the redirectURI to your application. Redirect URI should be set to URL of SuiteCRM/index.php
+
 More details here on app registration here - https://docs.microsoft.com/en-us/azure/active-directory/develop/scenario-spa-app-registration
+
 After completing the steps outlined in the documentation, return to Azure Active Directory > App Registrations and then open the new app.  
 
 ### Important
